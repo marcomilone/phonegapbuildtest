@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap     = "http://phonegap.com/ns/1.0"
+        xmlns:android   = "http://schemas.android.com/apk/res/android"
+        id            = "it.appname.exp"
+        versionCode   = "1"
+        version       = "0.23">
+
+
+
+    <name>appname</name>
+
+    <description>
+        Track, keep and sync geometries
+    </description>
+
+    <author href="" email="marco.milone@gmail.com">
+        Marco Milone
+    </author>
+
+    <gap:platform name="android" />
+    
+    <preference name='phonegap-version' value='cli-5.2.0' />
+
+
+    <preference name="android-build-tool" value="gradle" />
+
+
+    
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <allow-navigation href="http://*/*" />
+    <access origin="*"/>
+    
+    <gap:plugin name="cordova-plugin-device" source="npm" />
+    <gap:plugin name="cordova-plugin-device-motion" source="npm" />
+    <gap:plugin name="cordova-plugin-device-orientation" source="npm" />
+    <gap:plugin name="cordova-plugin-file" source="npm" />
+    <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
+    <gap:plugin name="cordova-plugin-media" source="npm" />
+    <gap:plugin name="cordova-plugin-network-information" source="npm" />
+    <gap:plugin name="cordova-plugin-vibration" source="npm" />
+    <gap:plugin name="cordova-plugin-media-capture" source="npm" />
+    <gap:plugin name="cordova-plugin-camera" source="npm" />
+    <gap:plugin name="cordova-plugin-battery-status" source="npm" />
+    <gap:plugin name="cordova-plugin-globalization" source="npm" />
+    <gap:plugin name="cordova-plugin-dialogs" source="npm" />
+
+    <gap:plugin name="cordova-open" source="npm" />
+
+    <gap:plugin name="uk.co.whiteoctober.cordova.appversion" />
+
+
+
+
+
+
+    <preference name="fullscreen" value="true" />
+
+    <preference name="orientation" value="fullSensor" />
+
+    <preference name="webviewbounce" value="false" />
+
+    <preference name="android-installLocation" value="auto" />
+
+    <preference name="exit-on-suspend" value="false" />
+
+    <preference name="disallowOverscroll" value="true" />
+
+    <preference name="KeepRunning" value="true" />
+
+    <preference name="LoadUrlTimeoutValue" value="60000" />
+
+    <preference name="android-windowSoftInputMode" value="adjustPan" />
+
+    <preference name="BackgroundColor" value="0xff000000"/>
+
+
+    <icon src="icon.png" />
+    <icon src="icons/android/mipmap-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="icons/android/mipmap-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="icons/android/mipmap-xhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <icon src="icons/android/mipmap-xxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxhdpi" />
+    <icon src="icons/android/mipmap-xxxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+
+
+</widget>
